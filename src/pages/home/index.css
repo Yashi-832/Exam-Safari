@@ -1,5 +1,6 @@
 .home-container{
     margin-top:15vh;
+<<<<<<< HEAD
 }
 
 .animated-color{
@@ -12,4 +13,6 @@
   0% { color: red; }
   50% { color: blue; }
   100% { color: red; }
+=======
+>>>>>>> 909f7c8 (first day task)
 }

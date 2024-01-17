@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRef,useEffect, useState } from 'react';
 import './index.css'
 
@@ -51,6 +52,17 @@ function Services() {
       <h1 className='service-heading'>Services</h1>
       <p className='service-para'>Little text about services </p>
       <div className='services-items' ref={containerRef}>
+=======
+import './index.css'
+
+function Services() {
+  return (
+    <div className='services-container'>  
+
+      <h1 className='service-heading'>Services</h1>
+      <p className='service-para'>Little text about services </p>
+      <div className='services-items'>
+>>>>>>> 909f7c8 (first day task)
         
       <div className="services-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-purple-500">
           <img className="h-[300px] w-auto rounded-[25px] p-2 service-image" src="./public/images/service1.png" alt="dummy-image"/>
@@ -72,6 +84,7 @@ function Services() {
       
 
       </div>
+<<<<<<< HEAD
       <div className='controls'>
         {/* Left arrow control */}
      <div>
@@ -91,6 +104,8 @@ function Services() {
       </div>}
       </div>
       </div>
+=======
+>>>>>>> 909f7c8 (first day task)
     </div>
   )
 }

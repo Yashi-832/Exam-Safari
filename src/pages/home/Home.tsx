@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import HeroSection from "../../components/herosection/HeroSection";
 import Stats from "@/components/stats/Stats";
 import Services from "@/components/services/Services";
@@ -38,3 +39,40 @@ function Home() {
 }
 
 export default Home;
+=======
+
+
+import HeroSection from '../../components/herosection/HeroSection'
+import Stats from '@/components/stats/Stats'
+import Services from '@/components/services/Services'
+import ExamCity from '@/components/examcity/ExamCity'
+import AcoFeature from '@/components/feature/AcoFeature'
+import TravelFeature from '@/components/feature/TravelFeature'
+import Faq from '@/components/Faqs/Faq'
+import Bannar1 from '@/components/bannar/Bannar1'
+import Navbar from '@/components/navbar/Navbar'
+import Layout from '@/components/layout/Layout'
+
+
+function Home() {  
+  return (
+   
+   <Layout>
+        <Navbar/>
+        <HeroSection/>  
+        <Stats/> 
+        <Services/>
+        <ExamCity/>
+        <AcoFeature/>
+        <Bannar1/>
+        <TravelFeature/> 
+        <Faq/>
+
+  </Layout>
+       
+        
+  )
+}
+
+export default Home
+>>>>>>> 909f7c8 (first day task)

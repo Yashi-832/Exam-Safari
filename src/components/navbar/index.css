@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Navbar:hover{
  background-color:#142d55;
  color:white;
@@ -9,3 +10,13 @@
  cursor: pointer;
 }
 
+=======
+.nav-login:hover{
+ background-color:#142d55;
+ color:white;
+}
+.nav{
+  height:15vh;  
+  top:0;
+}
+>>>>>>> 909f7c8 (first day task)

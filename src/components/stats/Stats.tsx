@@ -7,7 +7,11 @@ function Stats() {
   return (
     <div className='stats-container'>
     <div className="stats">
+<<<<<<< HEAD
         <div className="stats-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
+=======
+        <div className="stats-item">
+>>>>>>> 909f7c8 (first day task)
           <div className="align-center">
             <FaCity style={{color: "#00aff5",}} className="image" />
           </div>        
@@ -15,7 +19,11 @@ function Stats() {
             <h6 className="text-[#6B7280] para">Book your perfect place from an extensive list of options.</h6>           
         </div>
 
+<<<<<<< HEAD
         <div className="stats-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
+=======
+        <div className="stats-item">
+>>>>>>> 909f7c8 (first day task)
             <div className='align-center'>
             <RiCustomerService2Fill style={{color: "#00aff5",}} className='image' />
             </div>
@@ -23,14 +31,22 @@ function Stats() {
             <h6 className="text-[#6B7280] para">Book your perfect place from an extensive list of options.</h6>           
         </div>
 
+<<<<<<< HEAD
         <div className="stats-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t hover:from-blue-500 hover:to-white-500">
+=======
+        <div className="stats-item">
+>>>>>>> 909f7c8 (first day task)
             <div className='align-center'>
             <FaPeopleRoof style={{color: "#00aff5",}} className='image' />
             </div>
             <h2 className="heading">250+ Partners</h2> 
             <h6 className="text-[#6B7280] para">Book your perfect place from an extensive list of options.</h6>           
         </div>        
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 909f7c8 (first day task)
     </div>
     </div>
   )

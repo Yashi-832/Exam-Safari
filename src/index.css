@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 .font {
   font-family: "Salsa", cursive;
@@ -109,3 +110,9 @@
   font-weight: 500;
   text-align: center;
 }
+=======
+ 
+.font{
+    font-family: 'Salsa', cursive;
+}
+>>>>>>> 909f7c8 (first day task)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { useRef,useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
@@ -51,6 +52,16 @@ function ExamCity() {
         <div className='service-heading'>Exam Cities</div>
         <div className='service-para'>Little text about Cities </div>
         <div className='services-items' ref={containerRef}>
+=======
+import { Link } from 'react-router-dom'
+
+function ExamCity() {
+  return (
+    <div className='services-container'>
+        <div className='service-heading'>Exam Cities</div>
+        <div className='service-para'>Little text about Cities </div>
+        <div className='services-items'>
+>>>>>>> 909f7c8 (first day task)
             
             <Link to="/allahabad">
             <div className="services-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t from-red-500 to-pink-500">
@@ -60,6 +71,11 @@ function ExamCity() {
             </div>
             </Link>
           
+<<<<<<< HEAD
+=======
+            
+
+>>>>>>> 909f7c8 (first day task)
             <Link to="/lucknow">
             <div className="services-item relative h-64 transition-all duration-300 hover:bg-gradient-to-t from-red-500 to-pink-500">
                 <img className="h-[300px] w-auto rounded-[25px] p-2 service-image" src="./public/images/lucknow.png" alt="dummy-image"/>
@@ -76,6 +92,7 @@ function ExamCity() {
             </div>
             </Link>
         </div>
+<<<<<<< HEAD
         <div className='controls'>
         {/* Left arrow control */}
      <div>
@@ -95,6 +112,9 @@ function ExamCity() {
       </div>}
       </div>
       </div>
+=======
+    
+>>>>>>> 909f7c8 (first day task)
 </div>
   )
 }
